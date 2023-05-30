@@ -2,7 +2,7 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #f4f4f4;
+    background-color: #fcfefe;
     margin: 0;
     padding: 0;
   }
@@ -14,7 +14,7 @@ body {
   #generate-btn {
     padding: 10px 20px;
     background-color: #4CAF50;
-    color: white;
+    color: rgb(255, 255, 255);
     border: none;
     cursor: pointer;
   }
@@ -28,6 +28,18 @@ body {
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    
+  }
+  #powerball {
+    color: red;
+    border: red solid 3px;
+    border-radius: 30px;
+    padding: 10px;
+  }
+  #white-balls {
+    border: black solid 3px;
+    border-radius: 30px;
+    padding: 10px;
   }
   
   span {
