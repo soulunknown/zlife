@@ -1,66 +1,60 @@
 /* styles.css */
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: #fcfefe;
-    margin: 0;
-    padding: 0;
-  }
-  
-  h1 {
-    margin-top: 50px;
-  }
-  
-  #generate-btn {
-    padding: 10px 20px;
-    background-color: #4CAF50;
-    color: rgb(255, 255, 255);
-    border: none;
-    border-radius: 30px;
-    cursor: pointer;
-  }
-  
-  #generate-btn:hover {
-    background-color: #065617;
-  }
-  #prev-btn {
-    padding:10px 20px;
-    background-color: yellow;
-    color: rgb(0, 0, 0);
-    border: none;
-    border-radius: 30px;
-    cursor: pointer;
-  }
-  #prev-btn:hover {
-    background-color: rgb(171, 124, 13);
-  }
-  #powerball-numbers {
-    margin-top: 50px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    
-  }
-  #powerball {
-    color: red;
-    border: red solid 3px;
-    border-radius: 50%;
-    padding: 10px;
-    width: auto;
-    height: auto;
-   
-    
-    
-  }
-  #white-balls {
-    border: black solid 3px;
-    border-radius: 30px;
-    padding: 10px;
-    width: auto;
-    height: auto;
-  }
-  
-  span {
-    margin: 0 5px;
-  }
-  
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #fcfefe;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin-top: 50px;
+}
+
+#generate-btn {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+#generate-btn:hover {
+  background-color: #065617;
+}
+#prev-btn {
+  padding: 10px 20px;
+  background-color: yellow;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+#prev-btn:hover {
+  background-color: rgb(171, 124, 13);
+}
+#powerball-numbers {
+  margin-top: 50px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+#powerball {
+  color: red;
+  border-radius: 50%;
+  padding: 10px;
+  width: auto;
+  height: auto;
+}
+#white-balls {
+  border-radius: 30px;
+  padding: 10px;
+  width: auto;
+  height: auto;
+}
+
+span {
+  margin: 0 5px;
+}
+
