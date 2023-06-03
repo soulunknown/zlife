@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&family=Monoton&display=swap");
+body {
+  font-family: "Lilita One", cursive;
+  text-align: center;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  margin-top: 50px;
+  border: #000000 solid 3px;
+  border-radius: 30px;
+  background-color: red;
+}
+
+#generate-btn {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow:  5px 5px 5px rgb(0, 0, 0);
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+#generate-btn:hover {
+  background-color: #065617;
+}
+#prev-btn {
+  padding: 10px 20px;
+  background-color: yellow;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px;
+}
+#prev-btn:hover {
+  background-color: rgb(171, 124, 13);
+}
+#powerball-numbers {
+  margin-top: 50px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+#powerball {
+  color: red;
+  border-radius: 50%;
+  padding: 10px;
+  width: auto;
+  height: auto;
+}
+#white-balls {
+  border-radius: 30px;
+  padding: 10px;
+  width: auto;
+  height: auto;
+}
+
+span {
+  margin: 0 5px;
+}
+
+.circle-text {
+  line-height: 2.5;
+}
+
+.circle-text .word {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.circle-text .word span {
+  display: inline-block;
+  margin: 5px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  
+  line-height: 30px;
+  text-align: center;
+  font-family: "Lilita One", cursive;
+}
+.word1 span {
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 1, 1);
+  box-shadow: 5px 5px 5px black;
+  
+
+}
+.word2 span {
+  color:rgb(255, 255, 255);
+  background-color: black;
+  box-shadow: 5px 5px 5px blue;
+
+}
+.word3 span {
+  color: rgb(136, 0, 255);
+  background-color: rgb(240, 238, 236);
+  box-shadow: 5px 5px 5px;
+}
+.word4 span {
+  color: rgb(219, 52, 219);
+  background-color: rgba(20, 13, 204, 0.736);
+  box-shadow: 5px 5px 5px;
+}
