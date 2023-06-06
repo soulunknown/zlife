@@ -54,6 +54,14 @@ function displayNumbers(numbers) {
     const powerballElement = document.getElementById("powerball-number");
     powerballElement.textContent = numbers.powerball;
     powerballElement.style.border = "3px solid red";
+    powerballElement.style.borderRadius = "50%";
+    powerballElement.style.width = "25px";
+    powerballElement.style.height = "25px";
+    powerballElement.style.display = "flex";
+    powerballElement.style.justifyContent = "center";
+    powerballElement.style.alignItems = "center";
+    powerballElement.style.padding = "10px";
+
 }
 
 // Event listeners for excluding numbers
