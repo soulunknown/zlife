@@ -57,6 +57,21 @@
       <button id="generate-btn">Generate Numbers</button>
       <button id="prev-btn">Previous Numbers</button>
     </div>
+    <div id="exclusion-container">
+      <h2>Exclude Numbers</h2>
+      <div class="exclude-number">
+        <label for="exclude-white-number-input">Exclude White Ball Numbers:</label>
+        <input type="number" id="exclude-white-number-input" min="1" max="69" />
+        <button id="exclude-white-number-btn">Exclude</button>
+        <div id="excluded-white-numbers"></div>
+      </div>
+      <div class="exclude-number">
+        <label for="exclude-powerball-number-input">Exclude Powerball Numbers:</label>
+        <input type="number" id="exclude-powerball-number-input" min="1" max="26" />
+        <button id="exclude-powerball-number-btn">Exclude</button>
+        <div id="excluded-powerball-numbers"></div>
+      </div>
+    </div>
     <div id="powerball-numbers">
       <span id="white-balls"></span>
       <span id="powerball"><span id="powerball-number"></span></span>
