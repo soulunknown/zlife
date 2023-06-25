@@ -1,0 +1,48 @@
+#container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.section {
+    flex: 1;
+    margin: 0 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #e9b4c1;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(122, 37, 125, 0.1);
+    overflow-y: auto;
+    max-height: 80vh;
+}
+
+h3 {
+    margin-top: 0;
+}
+.navbar {
+    background-color: rgb(183, 0, 255);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .navbar a:hover {
+    color: #ccc;
+  }

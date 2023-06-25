@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="freqstyle.css">
+    <title>Number Frequency</title>
+</head>
+<body>
+    <div id="container">
+        <div class="section" id="output">
+            <!-- Whiteballs 1-69 content goes here -->
+        </div>
+        <div class="section" id="frequentSixthNumbers">
+            <!-- Powerballs 1-25 content goes here -->
+        </div>
+        <div class="section" id="frequencyOutput">
+            <!-- Frequency buckets content goes here -->
+        </div>
+        <div class="section" id="sixthNumberFrequencyOutput">
+            <!-- Sixth number frequency buckets content goes here -->
+        </div>
+    </div>
+    <div id="calculatorSection">
+        <h3>Simple Calculator</h3>
+        <input type="number" id="number1" placeholder="Enter number">
+        <input type="number" id="number2" placeholder="Enter number">
+        <button onclick="performAddition()">Add</button>
+        <div id="calculationResult"></div>
+    </div>
+    <div id="textAreaSection">
+        <h3>Text Area</h3>
+        <textarea id="myTextArea" rows="4" cols="50" placeholder="Enter text here..."></textarea>
+        <button onclick="readTextArea()">Read Text Area</button>
+        <div id="textAreaContents"></div>
+    </div>
+        
+   
+
+    <script src="freq.js"></script>
+  </body>
+</html>
