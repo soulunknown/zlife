@@ -57,7 +57,8 @@ window.onload = function () {
   processList([17, 24, 48, 62, 68, 23]);
   processList([7, 23, 24, 32, 43, 18]);
   processList([2, 24, 34, 53, 58, 13]);
-
+  processList([23, 35, 45, 66, 67, 20]);
+  processList([2, 9, 43, 55, 57, 18]);
 
   // (As in the code you provided above)
 
